@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+	xmlns:jcr="http://www.jcp.org/jcr/1.0" sv:name="config">
+	<sv:property sv:type="Name" sv:name="jcr:primaryType">
+		<sv:value>nt:unstructured</sv:value>
+	</sv:property>
+	<sv:node sv:name="templates">
+		<sv:property sv:type="Name" sv:name="jcr:primaryType">
+			<sv:value>nt:unstructured</sv:value>
+		</sv:property>
+		<sv:node sv:name="home">
+			<sv:property sv:type="Name" sv:name="jcr:primaryType">
+				<sv:value>nt:unstructured</sv:value>
+			</sv:property>
+			<sv:node sv:name="paragraphs">
+				<sv:property sv:type="Name" sv:name="jcr:primaryType">
+					<sv:value>nt:unstructured</sv:value>
+				</sv:property>
+				<sv:node sv:name="text">
+					<sv:property sv:type="Name" sv:name="jcr:primaryType">
+						<sv:value>nt:unstructured</sv:value>
+					</sv:property>
+				</sv:node>
+			</sv:node>
+		</sv:node>
+	</sv:node>
+	<sv:node sv:name="sections">
+		<sv:property sv:type="Name" sv:name="jcr:primaryType">
+			<sv:value>nt:unstructured</sv:value>
+		</sv:property>
+		<sv:node sv:name="header">
+			<sv:property sv:type="Name" sv:name="jcr:primaryType">
+				<sv:value>nt:unstructured</sv:value>
+			</sv:property>
+		</sv:node>
+		<sv:node sv:name="main">
+			<sv:property sv:type="Name" sv:name="jcr:primaryType">
+				<sv:value>nt:unstructured</sv:value>
+			</sv:property>
+			<sv:node sv:name="paragraphs">
+				<sv:property sv:type="Name" sv:name="jcr:primaryType">
+					<sv:value>nt:unstructured</sv:value>
+				</sv:property>
+				<sv:node sv:name="text">
+					<sv:property sv:type="Name" sv:name="jcr:primaryType">
+						<sv:value>nt:unstructured</sv:value>
+					</sv:property>
+				</sv:node>
+			</sv:node>
+		</sv:node>
+	</sv:node>
+	<sv:node sv:name="paragraphs">
+		<sv:property sv:type="Name" sv:name="jcr:primaryType">
+			<sv:value>nt:unstructured</sv:value>
+		</sv:property>
+		<sv:node sv:name="text">
+			<sv:property sv:type="Name" sv:name="jcr:primaryType">
+				<sv:value>nt:unstructured</sv:value>
+			</sv:property>
+			<sv:property sv:name="header" sv:type="String">
+				<sv:value></sv:value>
+			</sv:property>
+			<sv:property sv:name="text" sv:type="String">
+				<sv:value></sv:value>
+			</sv:property>
+		</sv:node>
+	</sv:node>
+</sv:node>

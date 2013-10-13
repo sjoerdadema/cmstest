@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html ng-app='cmspage'>
+<head>
+	<meta charset="UTF-8">
+	<title>Template Home</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.8/angular.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="../js/app.js"></script>
+    <link rel="stylesheet" href="css/main.css">
+    <!-- <script src="js/bootstrap.js"></script>
+    <script src="js/bootstrap-rowlink.js"></script>
+     -->
+    <!-- <script src="js/controllers.js"></script>  -->
+    <!-- <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap-rowlink.css">
+     -->
+</head>
+<body ng-controller="PageCtrl">
+	<div class="container">
+	<div ng-repeat="template in templates">
+		<div ng-include src="template.url"></div>
+	</div>
+	</div>
+	<!--  end .container -->
+</body>
+</html>

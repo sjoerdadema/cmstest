@@ -1,0 +1,27 @@
+.container {
+	width: 320px;
+	margin: 0 auto;
+}
+
+h1#logo {
+	height: 132px;
+	background: url(../images/ice-cubes-500px.png) no-repeat top left;
+	background-size: 320px;
+	text-indent: -99999px;
+}
+
+@media only screen and (min-width: 768px) {
+	.container {
+		width: 768px;
+	}
+	h1#logo {
+		height: 139px;
+		background: url(../images/bg_header.jpg) no-repeat top left;
+		text-indent: -99999px;
+	}
+}
+
+@media only screen and (min-width: 1024px) {
+	.container {
+		width: 1024px;
+	}
