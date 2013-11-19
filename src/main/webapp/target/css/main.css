@@ -1,16 +1,34 @@
+*, *:before, *:after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	padding: 0;
+	margin: 0;
+}
 .container {
-	width: 320px;
+	width: 312px;
 	margin: 0 auto;
 }
 
 h1#logo {
+	max-width: 100%;
 	height: 132px;
-	background: url(../images/ice-cubes-500px.png) no-repeat top left;
-	background-size: 320px;
+	background: url(../images/ice-cubes-500px.png) no-repeat top center;
+	background-size: 312px;
 	text-indent: -99999px;
+	margin: 0;
+	padding: 0;
 }
 
 @media only screen and (min-width: 768px) {
+	body {
+		padding: 0;
+		margin: 0;
+	}
+	
 	.container {
 		width: 768px;
 	}

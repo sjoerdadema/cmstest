@@ -35,9 +35,9 @@ cmsmodule.controller('CMSMainCtrl', function($scope, $log, $http) {
 var cmspage = angular.module('cmspage', []);
 cmspage.controller('PageCtrl', function($scope) {
 	$scope.templates = [
-	                    { name: 'header.html', url: 'sections/header.html' },
-	                    { name: 'main.html', url: 'sections/main.html'},
-	                    { name: 'footer.html', url: 'sections/footer.html' }
+	                    { name: 'header.html', url: 'sections/header.html' } //,
+	                    //{ name: 'main.html', url: 'sections/main.html'},
+	                    //{ name: 'footer.html', url: 'sections/footer.html' }
 	                    ];
 	
 	/*

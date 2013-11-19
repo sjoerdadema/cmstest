@@ -1,0 +1,149 @@
+html {
+	font-size: 62.5%;		/* 10px */
+	font-family: 'Armata', sans-serif;
+}
+
+*, *:before, *:after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+body {
+}
+
+h1 {
+	font-size: 14px;
+	font-size: 1.4rem;
+	padding: 10px 5px 10px 5px;
+	background-color: #f4ba8d;
+}
+
+p {
+	font-size: 12px;
+	font-size: 1.2rem;
+	/* background-color: #f8fce8; */
+	padding: 5px;
+}
+
+img {
+	max-width: 320px;
+}
+
+.container {
+	width: 320px;
+	margin: 0 auto;
+}
+
+header.main {
+	position: relative;
+	max-width: 100%;
+	height: 112px;
+	background: linear-gradient(45deg, #1e8ac9 0%, #f8fce8 60%);
+	background: -webkit-linear-gradient(45deg, #1e8ac9 0%, #f8fce8 60%);
+	border-bottom: #f4ba8d 5px solid;
+}
+
+h1#logo {
+	text-indent: -99999px;
+	background-color: initial;
+}
+
+picture#info {
+	position: absolute;
+	top: 34px;
+	left: 15px;
+}
+
+picture#offcanvas {
+	position: absolute;
+	top: 34px;
+	right: 15px;
+}
+
+picture.main {
+}
+
+picture.main img {
+}
+
+picture.small-image {
+	float: left;
+	width: 33%;
+	padding: 5px;
+}
+
+picture.small-image img {
+	width: 100%;
+	/*position: absolute;
+	height: 0px;
+	padding-bottom: 66%; */
+}
+
+div.picture-wrapper {
+	position: relative;
+	width: 150px;
+}
+
+h2.small-image {
+	position: absolute;
+	width: 100%;
+	height: 0px;
+	font-size: 0px;
+	padding-bottom: 44%;
+	background: url(../img/printplaat-980px.png) no-repeat;
+	background-size: cover;
+}
+
+div.clear {
+	clear: left;
+}
+
+section {
+	padding: 5px 0 5px 0;
+}
+
+section.main {
+	position: relative;
+	padding-top: 0;
+	z-index: 10;
+}
+
+section.hometeaser {
+	position: absolute;
+	top: 150px;
+	left: 0;
+	z-index: 100;
+}
+
+article {
+	margin: 5px 0 0 0;
+	padding: 0 0 5px 0;
+	background-color: #f8fce8;
+	border-bottom: #f4ba8d 2px solid;
+}
+
+article.hometeaser {
+	margin: 0 15px;
+	border-bottom: none;
+}
+
+article.hometeaser p {
+}
+
+@media only screen and (min-width: 37.5em) {
+	.container {
+		width: 600px;
+	}
+	
+	img {
+		max-width: 600px;
+	}
+	
+	section.hometeaser {
+		top: 300px;
+	}
+	
+}
