@@ -52,7 +52,7 @@
 			<artifactId>modeshape-jcr-api</artifactId>
 		</dependency>
 		<dependency>
-			<groupId>org.pmw</groupId>
+			<groupId>org.tinylog</groupId>
 			<artifactId>tinylog</artifactId>
 			<version>0.8</version>
 		</dependency>
