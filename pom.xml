@@ -7,6 +7,10 @@
   <name>cmstest</name>
   <description>Eenvoudige cms op basis van AngularJS en REST</description>
   
+  <properties>
+  	<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+  
 <dependencyManagement>
   <dependencies>
     <!-- Import the ModeShape BOM for embedded usage. This adds to the "dependenciesManagement" section
