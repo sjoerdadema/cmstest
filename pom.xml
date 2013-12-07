@@ -135,6 +135,7 @@
                     <failOnMissingWebXml>false</failOnMissingWebXml>
                  	<archive>
                  		<manifestEntries>
+                 			<version>${project.version}</version>
                  			<dependencies>javax.jcr, org.modeshape.jcr.api export services, org.modeshape export services</dependencies>
                  		</manifestEntries>
                  	</archive>
