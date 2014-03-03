@@ -35,6 +35,34 @@ img {
 .container {
 	width: 320px;
 	margin: 0 auto;
+	position: relative;
+}
+
+.navigation {
+	/* collapsed */
+	width: 0;
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+}
+
+#main-navigation:target {
+	width: 20%;
+	position: absolute;
+	overflow: visible;
+}
+
+#main-navigation:target + .page-wrap {
+	width: 80%;
+	transition: width 1.5s ease;
+	-webkit-transition: width 1s ease;
+}
+
+.page-wrap {
+	width: 100%;
+	float: right;
 }
 
 header.main {
@@ -67,6 +95,7 @@ picture.main {
 }
 
 picture.main img {
+	width: 100%;
 }
 
 picture.small-image {
